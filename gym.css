@@ -1,0 +1,141 @@
+body{
+    margin: 5px;
+    padding: 5px;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.394);
+    border-radius: 10px;
+    position: sticky;
+    top: 2px;
+    height: 100px;
+}
+.logo img{
+    margin-top: -30px;
+}
+nav a{
+    margin-top: 40px;
+    text-decoration: none;
+    border: 3px solid rgba(0, 0, 0, 0.369);
+    height: fit-content;
+    border-radius: 5px;
+    background-color: rgb(14, 197, 210);
+}
+.back{
+    background: url(background.avif);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 68vh;
+    min-width: 200vh;
+    border-radius: 5px;  
+}
+.tex p{
+margin-left: 40px;
+color: white;
+font-family: none;
+}
+.tex h1{
+    font-size: 35px;
+    color: white;
+}
+.tex span{
+    color: aqua;
+}
+.tex button{
+margin-left: 130px;
+background-color: aqua;
+color: black;
+font-weight: bold;
+border-radius: 5px;
+height: 40px;
+}
+.about h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: dashed;
+}
+.about p{
+    font-size: 20px;
+}
+.about img{
+    border-radius: 8px;
+}
+.instrument h1{
+    text-align: center;
+}
+.instrument  h2{
+    text-align: center;
+}
+.int-pic{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.int-pic{
+    border: 3px solid red;
+    border-radius: 5px;
+}
+int-pic p{
+    margin: 20px;
+    padding: 4px;
+}
+.instrument h4{
+    font-size: 40px;
+    text-align: center;
+}
+.instrument p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+}
+.instrument p{
+    border: 2px dashed blue;
+}
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+}
+h5{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 80px;
+    color: red;
+    text-decoration: none;
+    background-color: rgba(222, 184, 135, 0.469);
+}
+.price .gold{
+    border: 5px solid green;
+    border-radius: 10px;
+}
+.price .silver{
+    border: 5px solid green;
+    border-radius: 10px;
+}
+.price .platinum{
+    border: 5px solid green;
+    border-radius: 10px;
+}
+.cont{
+    justify-content: space-around;
+    display: flex;
+    height: 200px;
+    border: 2px dashed orangered;
+}
+.cont span{
+    font-size: 60px;
+    justify-content: space-around;
+}
